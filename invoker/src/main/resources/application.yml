@@ -1,0 +1,22 @@
+server:
+  port: ${port}
+
+spring:
+  application:
+    name: invoker
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8801/eureka/
+    register-with-eureka: false #把服务注册到Eureka中
+    fetch-registry: true #获取服务列表
+    eureka-server-connect-timeout-seconds: 30
+    eureka-server-read-timeout-seconds: 30
+  instance:
+#    prefer-ip-address: true
+#    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}
+#    lease-expiration-duration-in-seconds: 30
+#    lease-renewal-interval-in-seconds: 10
+

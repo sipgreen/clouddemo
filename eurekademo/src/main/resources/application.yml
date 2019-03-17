@@ -1,0 +1,16 @@
+server:
+  port: ${port}
+spring:
+  application:
+    name: eurekaDemo
+
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  instance:
+    hostname: localhost
+
+
+
