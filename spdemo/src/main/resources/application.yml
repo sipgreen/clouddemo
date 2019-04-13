@@ -9,7 +9,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${eureka.server}
-    register-with-eureka: true #°Ñ·şÎñ×¢²áµ½EurekaÖĞ
+    register-with-eureka: true #æŠŠæœåŠ¡æ³¨å†Œåˆ°Eurekaä¸­
     fetch-registry: false
     eureka-server-connect-timeout-seconds: 30
     eureka-server-read-timeout-seconds: 30
