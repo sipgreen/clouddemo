@@ -9,8 +9,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8801/eureka/
-    register-with-eureka: false #°Ñ·şÎñ×¢²áµ½EurekaÖĞ
-    fetch-registry: true #»ñÈ¡·şÎñÁĞ±í
+    register-with-eureka: false #æŠŠæœåŠ¡æ³¨å†Œåˆ°Eurekaä¸­
+    fetch-registry: true #è·å–æœåŠ¡åˆ—è¡¨
     eureka-server-connect-timeout-seconds: 30
     eureka-server-read-timeout-seconds: 30
   instance:

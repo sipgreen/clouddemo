@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorld {
 
-    @Value("${port}")
+    @Value("${server.port}")
     private String port;
 
     @GetMapping("/getPort")
     @ResponseBody
     public String getPort()
     {
-        return "port:" + port;
+        return "portfsdfsd:" + port + "rewfsdfsdrwer   fsdf";
     }
 
 }
